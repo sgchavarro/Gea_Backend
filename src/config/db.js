@@ -20,7 +20,7 @@ pool.on('error', (err) => {
 });
 
 export async function connectDatabases() {
-  console.log('🔌 [ADSO DUAL DB] Inicializando conexiones...');
+  console.log('🔌 [GEA] Inicializando conexiones...');
 
   // A. Verificación PostgreSQL
   try {
